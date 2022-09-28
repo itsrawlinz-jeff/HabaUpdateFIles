@@ -1,0 +1,19 @@
+[07-Jun-2022 01:30:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/includes/dbconn.php on line 10
+[07-Jun-2022 01:30:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/includes/dbconn.php on line 10
+[07-Jun-2022 01:30:50 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/includes/dbconn.php on line 10
+[07-Jun-2022 01:30:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/includes/dbconn.php on line 10
+[08-Jun-2022 17:26:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/includes/dbconn.php on line 10
+[13-Jun-2022 17:08:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isloggedin() in /home/habadati/public_html/includes/navigation.php:13
+Stack trace:
+#0 /home/habadati/public_html/contact.php(39): include_once()
+#1 {main}
+  thrown in /home/habadati/public_html/includes/navigation.php on line 13
+[13-Jun-2022 17:10:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isloggedin() in /home/habadati/public_html/contact.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/habadati/public_html/contact.php on line 2
+[13-Jun-2022 17:11:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isloggedin() in /home/habadati/public_html/includes/navigation.php:13
+Stack trace:
+#0 /home/habadati/public_html/contact.php(41): include_once()
+#1 {main}
+  thrown in /home/habadati/public_html/includes/navigation.php on line 13

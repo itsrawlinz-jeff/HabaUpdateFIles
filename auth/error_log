@@ -1,0 +1,3 @@
+[17-Aug-2022 07:35:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/habadati/public_html/auth/auth.php on line 14
+[17-Aug-2022 07:35:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/auth/auth.php on line 17
+[17-Aug-2022 07:35:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/auth/auth.php on line 18

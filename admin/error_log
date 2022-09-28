@@ -1,0 +1,91 @@
+[16-Jun-2022 02:34:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[16-Jun-2022 10:48:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[08-Jul-2022 10:00:23 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[08-Jul-2022 10:00:23 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[19-Jul-2022 04:00:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Jul-2022 09:03:38 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Jul-2022 09:04:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Jul-2022 09:05:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Jul-2022 09:15:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Jul-2022 09:15:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Jul-2022 09:16:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Jul-2022 09:22:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Jul-2022 09:23:36 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Jul-2022 09:24:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[17-Aug-2022 02:58:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[17-Aug-2022 02:58:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[17-Aug-2022 03:01:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[17-Aug-2022 03:01:11 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 56
+[17-Aug-2022 03:01:11 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 58
+[17-Aug-2022 03:01:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 62
+[17-Aug-2022 03:01:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/admin/login.php on line 64
+[17-Aug-2022 03:01:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[17-Aug-2022 03:01:49 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 56
+[17-Aug-2022 03:01:49 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 58
+[17-Aug-2022 03:01:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 62
+[17-Aug-2022 03:01:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/admin/login.php on line 64
+[17-Aug-2022 03:02:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[17-Aug-2022 03:02:29 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 56
+[17-Aug-2022 03:02:29 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 58
+[17-Aug-2022 03:02:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 62
+[17-Aug-2022 03:02:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/admin/login.php on line 64
+[17-Aug-2022 03:05:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[17-Aug-2022 03:05:19 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 56
+[17-Aug-2022 03:05:19 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 58
+[17-Aug-2022 03:05:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 62
+[17-Aug-2022 03:05:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/admin/login.php on line 64
+[17-Aug-2022 03:06:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[17-Aug-2022 03:06:06 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 56
+[17-Aug-2022 03:06:06 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 58
+[17-Aug-2022 03:06:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 62
+[17-Aug-2022 03:06:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/admin/login.php on line 64
+[17-Aug-2022 03:06:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[17-Aug-2022 03:06:59 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 56
+[17-Aug-2022 03:06:59 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 58
+[17-Aug-2022 03:06:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 62
+[17-Aug-2022 03:06:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/admin/login.php on line 64
+[18-Aug-2022 16:53:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[18-Aug-2022 16:53:58 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Aug-2022 17:34:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Aug-2022 17:34:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Aug-2022 17:34:56 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Aug-2022 17:34:56 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 56
+[21-Aug-2022 17:34:56 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 58
+[21-Aug-2022 17:34:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 62
+[21-Aug-2022 17:34:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/admin/login.php on line 64
+[21-Aug-2022 17:36:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Aug-2022 17:36:24 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 56
+[21-Aug-2022 17:36:24 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 58
+[21-Aug-2022 17:36:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 62
+[21-Aug-2022 17:36:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/admin/login.php on line 64
+[21-Aug-2022 17:36:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Aug-2022 17:36:37 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 56
+[21-Aug-2022 17:36:37 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 58
+[21-Aug-2022 17:36:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 62
+[21-Aug-2022 17:36:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/admin/login.php on line 64
+[21-Aug-2022 17:36:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Aug-2022 17:36:46 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 56
+[21-Aug-2022 17:36:46 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 58
+[21-Aug-2022 17:36:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 62
+[21-Aug-2022 17:36:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/admin/login.php on line 64
+[21-Aug-2022 17:40:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Aug-2022 17:40:12 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 56
+[21-Aug-2022 17:40:12 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 58
+[21-Aug-2022 17:40:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 62
+[21-Aug-2022 17:40:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/admin/login.php on line 64
+[21-Aug-2022 17:40:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Aug-2022 17:40:28 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 56
+[21-Aug-2022 17:40:28 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 58
+[21-Aug-2022 17:40:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 62
+[21-Aug-2022 17:40:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/admin/login.php on line 64
+[21-Aug-2022 17:41:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Aug-2022 17:41:32 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 56
+[21-Aug-2022 17:41:32 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 58
+[21-Aug-2022 17:41:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 62
+[21-Aug-2022 17:41:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/admin/login.php on line 64
+[21-Aug-2022 17:41:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
+[21-Aug-2022 17:41:48 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 56
+[21-Aug-2022 17:41:48 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 58
+[21-Aug-2022 17:41:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/habadati/public_html/admin/login.php on line 62
+[21-Aug-2022 17:41:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/habadati/public_html/admin/login.php on line 64
+[11-Sep-2022 00:22:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/habadati/public_html/admin/includes/db.php on line 3
