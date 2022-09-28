@@ -9,6 +9,78 @@
 <base href="">
 <meta charset="utf-8" />
 <title>HABA Members Club Membership, Get Exclusive Benefits - Join Now &mdash; Haba</title>
+<!-- Favicons -->
+    <link href="assets/img/apple-touch-icon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-232906191-1">
+    </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-232906191-1');
+    </script>
+    <!-- GetButton.io widget -->
+    <script type="text/javascript">
+    (function() {
+        var options = {
+            whatsapp: "+16059713544", // WhatsApp number
+            call_to_action: "Message us", // Call to action
+            button_color: "#FF6550", // Color of button
+            position: "left", // Position may be 'right' or 'left'
+            pre_filled_message: "Hello Haba.", // WhatsApp pre-filled message
+        };
+        var proto = document.location.protocol,
+            host = "getbutton.io",
+            url = proto + "//static." + host;
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function() {
+            WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    })();
+    </script>
+    <!-- /GetButton.io widget -->
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.2/examples/carousel/">
+    <link href="/docs/4.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/4.2/examples/carousel/carousel.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -173,12 +245,13 @@ $(document).on("ready", function () {
   </head>
   <body  style="background-color:  #ffff99 !important;" > 
 
-<header id="header" class="fixed-top" style="background-color:  #ffff99;">
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top" style="background-color:  #ffff99;">
         <div class="container d-flex align-items-center">
 
-           <!--  <a href="http://habadatingclub.com/LOGIN/loginsystem/">LOGIN |</a>
+            <!--  <a href="https://habadatingclub.com/LOGIN/loginsystem/welcome.php">LOGIN |</a>
             <br>
-            <a href="http://habadatingclub.com/LOGIN/loginsystem/">REGISTER</a> -->
+            <a href="https://habadatingclub.com/LOGIN/loginsystem/welcome.php">REGISTER</a> -->
 
             <a href="index.php" class="logo me-auto"><img src="images/logos.png" alt="" class="img-fluid"></a>
             <!-- Uncomment below if you prefer to use an image logo -->
@@ -189,37 +262,45 @@ $(document).on("ready", function () {
                     <li><a class="active" href="index.php" style="color:#00001a;">Home</a></li>
                     <li><a href="about.php" style="color:#00001a ;">About</a></li>
                     <li><a href="http://habadatingclub.com/events/index.html" style="color:#00001a;">Events</a></li>
+                <li><a href="packages.php" style="color:#00001a;">Haba Packages</a></li>
 
 
 
 
-                    <li class="dropdown"><a href="" style="color:  #00001a;"><span>Membership</span> <i class="bi bi-chevron-down"></i></a>
+
+                    <li class="dropdown"><a href="" style="color:  #00001a;"><span>Membership</span> <i
+                                class="bi bi-chevron-down"></i></a>
                         <ul>
-                           
+
                             <li><a href="man.php">Membership For Men</a></li>
                             <li><a href="women.php">Membership For Women</a></li>
                             <li><a href="safari.php">Safari Dating Membership</a></li>
                             <li><a href="escort.php">Dating Apps profile Management</a></li>
                             <li><a href="senior.php">Exclusive Senior Dating</a></li>
                             <li><a href="guide.php">New Town Guide And Escort Membership</a></li>
-                            <li><a href="vip.php">VIP Luxury &amp; Travel Dating</a></li>
+                            <li><a href="vip.php">VIP Luxury & Travel Dating</a></li>
                             <li><a href="bw.php"> Black And White Dating</a></li>
-                            <li><a href="http://habadatingclub.com/LOGIN/loginsystem/">LOGIN </a></li>
-                            <li><a href="http://habadatingclub.com/LOGIN/loginsystem/">REGISTER</a></li>
+                            <li><a href="https://habadatingclub.com/LOGIN/loginsystem/welcome.php"> </a></li>
+                            <li><a href="https://habadatingclub.com/LOGIN/loginsystem/welcome.php">REGISTER</a></li>
 
 
                         </ul>
                     </li>
-                    <li><a href="http://habadatingclub.com/LOGIN/loginsystem/" style="color:  #00001a ;">Login</a></li>
-                    <li><a href="http://habadatingclub.com/LOGIN/loginsystem/" style="color:  #00001a ;">Register</a></li>
+                    <li><a href="https://habadatingclub.com/LOGIN/loginsystem/welcome.php"
+                            style="color:  #00001a ;"></a></li>
+                    <li><a href="https://habadatingclub.com/LOGIN/loginsystem/welcome.php"
+                            style="color:  #00001a ;">Register</a>
+                    </li>
                     <li><a href="contact.html" style="color:  #00001a ;">Contact</a></li>
 
-                      
+
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
         </div>
     </header>
+    <!-- End Header -->
+    <!-- ======= Hero Section ======= -->
 
 
       <figure
@@ -321,7 +402,7 @@ width: 100%;
   }
 </style>
 <div class="vipContainer">
-  <img style="width:100%" src="https://static1.squarespace.com/static/5a85dc3b18b27d11bc9b6f29/t/61ae95285f88375cbb8172f5/1638831400378/gold.png"></img>
+  <img style="width:100%" src="images/gold.png"></img>
   <div class="listContainer">
     <!----HELLO TEAM! EDIT LINE ITEMS HERE-----!>
    <ul class="vipList"><b>✔️&nbsp;&nbsp;3 Months Matchmanking</b></ul>
@@ -347,7 +428,7 @@ width: 100%;
   }
 </style>
 <div class="vipContainer">
-  <img style="width:100%" src="https://static1.squarespace.com/static/5a85dc3b18b27d11bc9b6f29/t/6233c3e129316e6649f20b75/1647559649641/platinum.png"></img>
+  <img style="width:100%" src="images/platinum.png"></img>
   <div class="listContainer">
 <!----HELLO TEAM! EDIT LINE ITEMS HERE-----!>
   <ul class="vipList"><b>✔️&nbsp;&nbsp;6 months matchmaking/b></ul>
@@ -376,7 +457,7 @@ width: 100%;
 </style>
 
 <div class="vipContainer">
-  <img style="width:100%" src="https://static1.squarespace.com/static/5a85dc3b18b27d11bc9b6f29/t/618984b2be3b621b62061210/1636402354323/diamond.png"></img>
+  <img style="width:100%" src="images/diamond.png"></img>
   <div class="listContainer">
 <!----HELLO TEAM! EDIT LINE ITEMS HERE-----!>
   <ul class="vipList"><b>💎&nbsp;&nbsp;15 months matchmaking with the Option of Expanding.</b></ul>

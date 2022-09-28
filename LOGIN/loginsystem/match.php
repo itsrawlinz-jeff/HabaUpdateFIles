@@ -14,6 +14,7 @@ if(isset($_POST['save']))
 
     $fullname=$_POST['fullname'];
     $email=$_POST['email'];
+    $country=$_POST['country'];
     $contact=$_POST['contact'];
     $dob=$_POST['dob'];
     $gender=$_POST['gender'];
@@ -21,17 +22,17 @@ if(isset($_POST['save']))
     $rstatus=$_POST['rstatus'];
     $smoke=$_POST['smoke'];
     $drink=$_POST['drink'];
+    $pdrink=$_POST['pdrink'];
     $income=$_POST['income'];
-    $partnerminage=$_POST['partnerminage'];
-    $partnermaxage=$_POST['partnermaxage'];
+    $partnerage=$_POST['partnerage'];
     $chronic=$_POST['chronic'];
-    $pdrink	=$_POST['pdrink'];
+    $plan=$_POST['plan'];
     // $image=$_POST['image'];
 
    
 
-    $sql = "INSERT INTO matchrequests (fullname,email,contact,dob,gender,pgender,rstatus,smoke,drink,income,partnerminage,partnermaxage,chronic,pdrink)
-    VALUES('$fullname','$email','$contact','$dob','$gender','$pgender','$rstatus','$smoke','$drink','$income','$partnerminage','$partnermaxage','$chronic','$pdrink')";    
+    $sql = "INSERT INTO matchrequests (fullname,email,country,contact,dob,gender,pgender,rstatus,smoke,drink,pdrink,income,partnerage,chronic,plan)
+    VALUES('$fullname','$email','$country','$contact','$dob','$gender','$pgender','$rstatus','$smoke','$drink','$pdrink','$income','$partnerage','$chronic','$plan')";    
  
 
 

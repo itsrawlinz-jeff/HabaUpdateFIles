@@ -1,9 +1,7 @@
 <?php
  session_start();
  require_once('dbconnection.php');
-
-  ?>
-
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -80,7 +78,7 @@
 ?>
                 <label for="contact" style="color:red">Pick Your Country</label>
 
-                <select class="custom-select" name="partnermaxage" id="inputGroupSelect01">
+                <select class="custom-select" name="country" id="inputGroupSelect01">
                     <option>Select Country</option>
                     <?php 
                     foreach ($options as $option) {
@@ -114,7 +112,7 @@
                 </div>
                 <select class="custom-select" name="gender" id="inputGroupSelect01">
                     <option name="gender" selected>Choose...</option>
-                    <option v name="gender" alue="1">Male</option>
+                    <option name="gender" alue="1">Male</option>
                     <option name="gender" value="2">Female</option>
                 </select>
             </div>
@@ -174,11 +172,11 @@
                 <div class="input-group-prepend">
                     <label class="input-group-text" for="inputGroupSelect01">Do You Smoke?</label>
                 </div>
-                <select name="pgender" class="custom-select" name="rstatus" id="inputGroupSelect01">
-                    <option name="rstatus" selected>Choose...</option>
-                    <option name="rstatus" value="1">Never</option>
-                    <option name="rstatus" value="2">Moderately</option>
-                    <option name="rstatus" value="3">Regulary </option>
+                <select name="pgender" class="custom-select" name="smoke" id="inputGroupSelect01">
+                    <option name="smoke" selected>Choose...</option>
+                    <option name="smoke" value="1">Never</option>
+                    <option name="smoke" value="2">Moderately</option>
+                    <option name="smoke" value="3">Regulary </option>
 
                 </select>
             </div>
@@ -190,7 +188,7 @@
                 <div class="input-group-prepend">
                     <label class="input-group-text" for="inputGroupSelect01">Do You Drink?</label>
                 </div>
-                <select name="pgender" class="custom-select" name="drink" id="inputGroupSelect01">
+                <select  class="custom-select" name="drink" id="inputGroupSelect01">
                     <option name="drink" selected>Choose...</option>
                     <option name="drink" value="1">Never</option>
                     <option name="drink" value="2">Moderately</option>
@@ -206,7 +204,7 @@
                 <div class="input-group-prepend">
                     <label class="input-group-text" for="inputGroupSelect01">Should Your Match Drink?</label>
                 </div>
-                <select name="pgender" class="custom-select" name="pdrink" id="inputGroupSelect01">
+                <select  class="custom-select" name="pdrink" id="inputGroupSelect01">
                     <option name="pdrink" selected>Choose...</option>
                     <option name="pdrink" value="1">Never</option>
                     <option name="pdrink" value="2">Moderately</option>
@@ -244,16 +242,16 @@
                         <div class="input-group-prepend">
                             <label class="input-group-text" for="inputGroupSelect01">I Want Between Age</label>
                         </div>
-                        <select name="pgender" class="custom-select" name="partnerminage" id="inputGroupSelect01">
-                            <option name="partnerminage" selected>Choose...</option>
-                            <option name="partnerminage" selected>No Preference</option>
-                            <option name="partnerminage" value="1">18-25</option>
-                            <option name="partnerminage" value="2">26-30</option>
-                            <option name="partnerminage" value="4">41-50 </option>
-                            <option name="partnerminage" value="5">51-60 </option>
-                            <option name="partnerminage" value="6">61-70 </option>
-                            <option name="partnerminage" value="7">71-80 </option>
-                            <option name="partnerminage" value="7">80 And Above </option>
+                        <select  class="custom-select" name="partnerage" id="inputGroupSelect01">
+                            <option name="partnerage" selected>Choose...</option>
+                            <option name="partnerage" selected>No Preference</option>
+                            <option name="partnerage" value="1">18-25</option>
+                            <option name="partnerage" value="2">26-30</option>
+                            <option name="partnerage" value="4">41-50 </option>
+                            <option name="partnerage" value="5">51-60 </option>
+                            <option name="partnerage" value="6">61-70 </option>
+                            <option name="partnerage" value="7">71-80 </option>
+                            <option name="partnerage" value="7">80 And Above </option>
 
 
 
@@ -272,7 +270,7 @@
                         <div class="input-group-prepend">
                             <label class="input-group-text" for="inputGroupSelect01">Do You Drink?</label>
                         </div>
-                        <select name="pgender" class="custom-select" name="chronic id=" inputGroupSelect01">
+                        <select class="custom-select" name="chronic" inputGroupSelect01">
                             <option name=" chronic " selected>Choose...</option>
                             <option name=" chronic" value=" 1">Yes,i have Chronic Illness</option>
                             <option name=" chronic" value=" 2">No i dont have Chronic Illness</option>
@@ -312,13 +310,11 @@
                         <div class="input-group-prepend">
                             <label class="input-group-text" for="inputGroupSelect01">Subscription Plan</label>
                         </div>
-                        <select name="pgender" class="custom-select" name="chronic id=" inputGroupSelect01">
-                            <option name=" chronic " selected>Choose...</option>
-                            <option name=" chronic" value=" 1">Haba Gold</option>
-                            <option name=" chronic" value=" 2">Haba Silver</option>
-                             <option name=" chronic" value=" 3">Haba Bronze</option>
-
-
+                        <select name="pgender" class="custom-select" name="plan" inputGroupSelect01">
+                            <option name=" plan " selected>Choose...</option>
+                            <option name=" plan" value=" 1">Haba Gold</option>
+                            <option name=" plan" value=" 2">Haba Silver</option>
+                             <option name="plan" value=" 3">Haba Bronze</option>
 
                         </select>
                     </div>

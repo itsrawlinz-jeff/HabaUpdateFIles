@@ -1,4 +1,5 @@
 <?php
+ob_start();
 define('DB_SERVER','localhost');
 define('DB_USER','habadati_login');
 define('DB_PASS' ,'--%FT1RR7cm{');
@@ -10,6 +11,6 @@ if (mysqli_connect_errno())
 {
 echo "Failed to connect to Your MySQL: " . mysqli_connect_error();
  }
-
+ ob_end_flush();
 ?>
 

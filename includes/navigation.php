@@ -47,6 +47,7 @@
 		            <li><a href="index.php"><b>Home</b></a></li>
 		            <li><a href="about.php"><b>About</b></a></li>
 		           <li><a href="http://habadatingclub.com/events/index.html"><b>Events</b></a></li>
+				  	                <li><a href="packages.php" style="color:#00001a;">Haba Packages</a></li>
 
 		    		<li><a href="./LOGIN/loginsystem/"><b>Login</b></a></li>
 		            <li ><a href="contact.php"><b>Contacts</b></a></li>
