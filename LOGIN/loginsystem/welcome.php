@@ -1,6 +1,34 @@
 <?php
  session_start();
  require_once('dbconnection.php');
+ //code for Form Details
+ if(isset($_POST['submit']))
+{
+	$name=$_POST['fullname'];
+	$email=$_POST['email'];
+    $country = $_POST['country'];
+	$contact=$_POST['contact'];
+	$DOB = $_POST ['dob'];
+    $gender = $_POST['gender'];
+    $genderwanted = $_POST['pgender'];
+    $rel_status =$_POST['rstatus'];
+    $smoke = $_POST['smoke'];
+    $drink = $_POST['drink'];
+    $match_drink =$_POST['pdrink'];
+    $income_bracket = $_POST['income'];
+    $pref_age = $_POST['partnerage']; // int
+    $chronic_illnes =$_POST['chronic'];
+    //$membership = $_POST[''];
+    $subsr_plan = $_POST['plan'];
+
+$msg=mysqli_query($con,"insert into request_form(name,email,country,contact,DOB,gender,genderwanted,genderwanted,rel_status,smoke,drink,match_drink,income_bracket,pref_age,chronic_illnes,membership,subsr_plan) values('$name','$email','$country','$contact','$DOB','$gender','$genderwanted','$rel_status','$smoke','$drink','$match_drink','$income_bracket','$pref_age','$chronic_illnes','$membership','$subsr_plan')");
+if($msg)
+{
+	echo "<script>alert('Okay! Got your Info');</script>";
+}
+}
+	
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -70,11 +98,11 @@
 
             <div class="form-group">
                 <?php 
-    $query ="SELECT country_name ,phone_code FROM countries";
+    $query ="select country_name ,phone_code FROM countries";
     $result = $con->query($query);
     if($result->num_rows> 0){
       $options= mysqli_fetch_all($result, MYSQLI_ASSOC);
-    }
+    } 
 ?>
                 <label for="contact" style="color:red">Pick Your Country</label>
 
@@ -288,14 +316,14 @@
                         <div class="input-group-prepend">
                             <label class="input-group-text" for="inputGroupSelect01">Membership</label>
                         </div>
-                        <select name="pgender" class="custom-select" name="chronic id=" inputGroupSelect01">
-                            <option name=" chronic " selected>Choose...</option>
-                            <option name=" chronic" value=" 1">Membership For Men</option>
-                            <option name=" chronic" value=" 2">Membership FOr Women</option>
-                              <option name=" chronic" value=" 3">Black And White Dating</option>
-                            <option name=" chronic" value=" 4">VIP And LUxury Dating</option>
-                              <option name=" chronic" value=" 1">Safari Dating Membership</option>
-                            <option name=" chronic" value=" 5">New Town Guide And EScort Membership</option>
+                        <select name="pgender" class="custom-select" name="membership id=" inputGroupSelect01">
+                            <option name="membership" selected>Choose...</option>
+                            <option name="membership" value=" 1">Membership For Men</option>
+                            <option name="membership" value=" 2">Membership FOr Women</option>
+                              <option name="membership" value=" 3">Black And White Dating</option>
+                            <option name="membership" value=" 4">VIP And LUxury Dating</option>
+                              <option name="membership" value=" 1">Safari Dating Membership</option>
+                            <option name="membership" value=" 5">New Town Guide And EScort Membership</option>
 
 
                         </select>
@@ -323,7 +351,7 @@
 
                 <p>
                     <input type="submit" name="save" id="Submit"
-                        onclick="window.location.href = 'http://localhost/LOGIN/loginsystem/welcome.php';" type="submit"
+                        onclick="window.location.href = 'http://localhost/HabaUpdateFIles/LOGIN/loginsystem/welcome.php';" type="submit"
                         class="btn btn-success" value="SUBMIT REQUEST" />
 
 

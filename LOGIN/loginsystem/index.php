@@ -16,7 +16,7 @@ if($row>0)
 {
 	echo "<script>alert('Email id already exist with another account. Please try with other email id');</script>";
 } else{
-	$msg=mysqli_query($con,"insert into users(fname,lname,email,password,contactno) values('$fname','$lname','$email','$enc_password','$contact')");
+	$msg=mysqli_query($con,"insert into users(fname,lname,email,password,contact) values('$fname','$lname','$email','$enc_password','$contact')");
 
 if($msg)
 {
